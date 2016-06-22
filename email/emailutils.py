@@ -43,9 +43,9 @@ def send_attachment(host,username,password,sender,receiver,title,file_path):
 
 if __name__ == '__main__':
     host = 'smtp.exmail.qq.com'
-    username = 'fuxinxin@doumi.com'
-    password = 'Ganji2015'
-    sender = 'fuxinxin@doumi.com'
-    receiver = 'fuxinxin@doumi.com'
-    #receiver = ['fuxinxin@doumi.com','528067488@qq.com'] #群发邮件
+    username = 'xxx@ganji.com'
+    password = 'xxxxxx'
+    sender = 'xxx@ganji.com'
+    receiver = 'xxxn@ganji.com'
+    #receiver = ['xxx@ganji.com','xxx@ganji.com'] #群发邮件
     send_attachment(host,username,password,sender,receiver)
